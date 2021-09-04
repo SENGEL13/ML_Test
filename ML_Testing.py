@@ -125,6 +125,7 @@ if type(df) != type(None):
         with col9:
             st.markdown(
 """## 根据准确的综合评分推荐\n
+$P = \overline{S} \\times 0.4 +(1-\sigma) \\times0.3+x_{max}\\times 0.2+x_{min}\\times 0.1$\n
 ># $\color{#008CFF}"""+"""{:}$""".format(name_all[0])+"""\n
 >## {:}\n
 > {:}\n
