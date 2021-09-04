@@ -3,7 +3,6 @@ import pandas as pd
 from io import StringIO
 import altair as alt
 from machine_learning_test.ML_Test import ML_Collective
-import altair as alt
 
 source = pd.DataFrame({
     'a': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'],
@@ -49,7 +48,7 @@ if type(df) != type(None):
     name_std = list(sorted_std['算法'])
 
     sorted_all = df_result.sort_values(by='综合评分',ascending=False)[['算法','综合评分']]
-    name_all = list(sorted_std['算法'])
+    name_all = list(sorted_all['算法'])
     #st.write(ahead_max,ahead_min,ahead_arr,ahead_std)
 
     with st.container():
