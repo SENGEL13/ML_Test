@@ -107,7 +107,7 @@ if type(df) != type(None):
         col7, col8 = st.columns(2)
         with col7:
             st.markdown(
-"""## 根据准确的平均值推荐\n
+"""## 根据准确的标准差推荐\n
 ># $\color{#008CFF}"""+"""{:}$""".format(name_std[0])+"""\n
 >## {:}\n
 > {:}\n
